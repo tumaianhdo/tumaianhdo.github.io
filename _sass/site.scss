@@ -80,7 +80,7 @@ body {
 	padding-right: 15px;
 	padding-left: 15px;
 	@include center-block();
-	background-color: $container;
+	//background-color: $container;
 	color: $color_shark;
 	z-index: 1;
 	border-radius: 3px;
@@ -111,6 +111,7 @@ body {
 	max-width: 850px;
 	margin: 4rem 25%;
 	background: $container;
+	opacity: 0.6;
 	color: $color_tuatara;
 	padding: 2em;
 	border-radius: 3px;

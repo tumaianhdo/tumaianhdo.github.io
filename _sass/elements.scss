@@ -3,7 +3,7 @@
 	display: inline-block;
 	border: 1px solid;
 	border-color: rgba($color_mercury,0.5) rgba($color_bon_jour,0.5) $color_mischka;
-	border-radius: 3px;
+	border-radius: 10px;
 	text-decoration: none;
 	background: $white;
 	color: $color_shark;
@@ -25,7 +25,7 @@
 	&.btn-success {
       background-color: $success;
       color: $white;
-      border-color: $success;
+      //border-color: $success;
       &:visited {
         color: $white;
       }
@@ -36,7 +36,7 @@
     }
     &.btn-warning {
       background-color: $warning;
-      color: $white;
+      color: $normal;
       border-color: $warning;
       &:visited {
         color: $white;
@@ -115,13 +115,13 @@ img {
     margin-right: auto;
     border: 0;
     -ms-interpolation-mode: bicubic;
-    image-rendering: optimizeQuality;
+    //image-rendering: optimizeQuality;
 }
 .img-circle {
 	border-radius: 50%;
-	border: 3px solid $white;
-	height: 150px;
-	width: 150px;
+	border: 2px solid $white;
+	height: 200px;
+	width: 200px;
 }
 .author-photo {
     background-color: $white;

@@ -1,10 +1,10 @@
 # Site
-title:              Moon
-bio:                'Minimal, one column jekyll theme.'
-description:        "Moon is a minimal, one column jekyll theme for your blog."
+title:              'Tu Mai Anh Do'
+bio:                'Ph.D. Candidate in Computer Science, USC'
+description:        "Tu Mai Anh Do is a Ph.D. Candidate at the University of Southern Californa"
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo.png'
+logo:               'assets/img/avatar.jpg'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
@@ -26,7 +26,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   taylantatli
+disqus_shortname:   tumaianhdo
 
 # Social
 # if you don't have any of social below, comment the line.
@@ -37,20 +37,20 @@ disqus_shortname:   taylantatli
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
-twitter:            username
-facebook:           username
-github-url:         username
+email:              tudo@isi.edu
+# twitter:            username
+facebook:           tumaianhdo
+github-url:         tumaianhdo
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:          username
+linkedin:           tumaianhdo
 #xing:              username
-instagram:          username
+# instagram:          username
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
 #pinterest:         username
 #foursquare:        username
-steam:              username
+#steam:              username
 #dribbble:          username
 #youtube:           username
 #youtube-channel:   channel
