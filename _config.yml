@@ -22,8 +22,10 @@ kramdown:
   enable_coderay:   false
 mathjax:            true
 sass:
-  sass_dir:         tumaianhdo.github.io/_sass
+  sass_dir:         _sass
   style:            compressed
+
+github: [metadata]
 
 # Comments
 disqus_shortname:   tumaianhdo
