@@ -22,7 +22,7 @@ kramdown:
   enable_coderay:   false
 mathjax:            true
 sass:
-  sass_dir:         _sass /hoosegow/.bundle/ruby/2.7.0/gems/jekyll-theme-primer-0.5.4/_sass
+  sass_dir:         _sass
   style:            compressed
 
 github: [metadata]
