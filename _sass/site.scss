@@ -108,18 +108,23 @@ body {
 .wrapper {
 	width: 75%;
 	position: absolute;
-	max-width: 850px;
-	margin: 4rem 25%;
+	/*max-width: 850px;*/
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 4rem 12.5%;
 	background: $container;
 	opacity: 0.6;
 	color: $color_wrapper;
 	padding: 2em;
 	border-radius: 3px;
 	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
-	@include transition(.5s);
+	@include center-block();
+	/*@include transition(.5s);*/
 	@media #{$small} {
 		width: 90%;
-		padding: 2em 0;
+		/*margin: 1rem 5%;*/
+		/*padding: 2em 0;*/
 	    box-shadow: none;
 	}
 }
