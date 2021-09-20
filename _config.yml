@@ -6,12 +6,13 @@ description:        "Tu Mai Anh Do is a Ph.D. Candidate at the University of Sou
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/avatar.jpg'
+avatar:             'assets/img/avatar.jpg'
 background:         'assets/img/placeholder-big.jpg'
-resume:             'resume.pdf'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://tumaianhdo.github.io
 resume:             https://github.com/tumaianhdo/tumaianhdo.github.io/raw/master/resume/resume.pdf
+google.verify:      JLYK94aqqr92rnl1VPg9ilzzRtOTs5nwBVqyIlcwbtA
 
 # Jekyll
 permalink:          /:title/
@@ -47,6 +48,7 @@ email:              tudo@isi.edu
 #facebook:           tumaianhdo
 googlescholar:      gPE9Z-sAAAAJ
 researchgate:       Tu_Mai_Anh_Do
+cv:                 resume.pdf
 #google.plus:        dfkjdkfjdkjf
 github-url:         tumaianhdo
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
