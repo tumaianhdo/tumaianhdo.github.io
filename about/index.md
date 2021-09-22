@@ -11,7 +11,7 @@ comments: false
 ## Interests
 * In situ Processing
 * Big Data Analytics
-* Scientific Workflows Managment 
+* Scientific Workflow Management 
 * High Performance Computing
 * Distributed Systems 
 
