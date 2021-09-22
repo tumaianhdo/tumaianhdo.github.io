@@ -1,0 +1,35 @@
+experience_history:
+  - company: Information Sciences Institute
+    location: Marina Del Rey, CA
+    title: Graduate Research Assistant
+    duration: August 2017 - Present
+    url: https://www.isi.edu
+    description: My main research topic focuses on in situ data management of scientific workflows on heterogeneous memory systems. In particular, my work is more concerned about data coordination perspective to execute efficiently in situ analysis that co-locates with large-scale simulation across deep memory hierarchies in leadership-class computing platforms.
+
+  - company: Lawrence Livermore National Laboratory
+    location: Livermore, CA
+    title: Research Intern 
+    duration: May 2018 - August 2018
+    url: https://www.llnl.gov
+    description: Enabled data analytics workflows that couple high-performance computing simulations with Big Data analytics using node-local storage
+
+  - company: Novobi
+    location: Ho Chi Minh, Vietnam
+    title: Software Engineer
+    duration: March 2017 - July 2017
+    url: https://novobi.com
+    description: Built automated system for deploying, testing and delivering package of health care application
+
+  - company: Ho Chi Minh University of Technology
+    location: Ho Chi Minh, Vietnam
+    title: Research Assistant
+    duration: July 2016 - July 2017
+    url: https://www.hcmut.edu.vn
+    description: Studied and developed abnormal behavior detection techniques for large-scale parallel applications in message-passing programming model
+
+  - company: DEK Technologies
+    location: Ho Chi Minh, Vietnam
+    title: Summer Intern
+    duration: May 2016 - August 2018
+    url: https://www.dektech.com.au
+    description: Built and automate deploy small high availability cluster

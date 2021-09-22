@@ -4,6 +4,7 @@ title: About Me
 tags: [about]
 date: 2021-09-21
 comments: false
+next: experience
 ---
 
 <center>I am a Computer Science Ph.D. candidate at the <a href="https://www.usc.edu">University of Southern California</a>, and a Graduate Research Assistant in the <a href="https://scitech.group">Science Automation Technologies</a> group at the <a href="https://www.isi.edu">USC Information Sciences Institute</a>. I am advised by Professor <a href="https://deelman.isi.edu">Ewa Deelman</a>. I received my Bachelor of Engineering in Computer Engineering from the <a href="https://www.hcmut.edu.vn">Ho Chi Minh City University of Technology, Vietnam National University</a>.</center>

@@ -1,0 +1,32 @@
+.resume-date {
+    min-width: none;
+    text-align: right !important;
+    // float: right;
+    flex: 0 0 20%;
+  }
+  
+@media (min-width: 768px) {
+    .resume-date {
+      min-width: 18rem;
+    }
+}
+
+.resume-content {
+    // display: -ms-flexbox !important;
+    // display: flex !important;
+    // -ms-flex-direction: row !important;
+    // flex-direction: row !important;
+    // -ms-flex-pack: justify !important;
+	// justify-content: space-between !important;
+    // float: left;
+    // width: 20%;
+    flex: 0 0 80%;
+}
+
+.mb-5, .my-5 {
+	margin-bottom: 3rem !important;
+}
+.justify-content-between {
+	-ms-flex-pack: justify !important;
+	justify-content: space-between !important;
+}

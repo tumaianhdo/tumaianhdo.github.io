@@ -23,21 +23,20 @@ layout: compress
                         </a>
                     </div>
                     <div class="post-list">
-                        {% for post in site.posts %} 
-                            {% if post.project == null %}
+                        {% for experience in site.data.experiences.experience_history %}
                         <ul>
                             <li class="wow fadeInLeft" data-wow-duration="1.5s">
                                 <div class="resume-content">
-                                    <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-                                    <p>{{ post.excerpt }}</p>
+                                    <h2>{{ experience.title }}</h2>
+                                    <a class="zoombtn" href="{{ experience.url }}">{{ experience.company }}, {{ experience.location}} </a>
+                                    <p>{{ experience.description }}</p>
                                 </div>
                                 <div class="resume-date">
-                                    <span>dfafadsasd</span>
+                                    <span>{{ experience.duration }}</span>
                                 </div>
                                 <!-- <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a> -->
                             </li>
                         </ul>
-                            {% endif %}
                         {% endfor %}
                     </div>
                 </div>
