@@ -4,32 +4,32 @@ experience_history:
     title: Graduate Research Assistant
     duration: August 2017 - Present
     url: https://www.isi.edu
-    description: My main research topic focuses on in situ data management of scientific workflows on heterogeneous memory systems. In particular, my work is more concerned about data coordination perspective to execute efficiently in situ analysis that co-locates with large-scale simulation across deep memory hierarchies in leadership-class computing platforms.
+    description: I am part of the <a style="font-size:1.1rem;" href="https://scitech.group">Science Automation Technologies</a> group and mainly working in the project <a style="font-size:1.1rem;" href="https://analytics4md.org">Analytics4MD</a>. My research topic is more concerned about how to enable efficient executions of in situ analyses that co-locates with large-scale simulations using in-memory staging in leadership-class computing platforms.
 
   - organization: LAWRENCE LIVERMORE NATIONAL LABORATORY
     location: Livermore, CA
     title: Research Intern 
     duration: May 2018 - August 2018
     url: https://www.llnl.gov
-    description: Enabled data analytics workflows that couple high-performance computing simulations with Big Data analytics using node-local storage
+    description: I collaborated with computer scientists in the <a style="font-size:1.1rem;" href="https://computing.llnl.gov/casc">Center for Applied Scientific Computing (CASC)</a> to enable data analytics workflows that couple high-performance computing simulations with Big Data analytics using node-local storage.
 
   - organization: NOVOBI
     location: Ho Chi Minh, Vietnam
     title: Software Engineer
     duration: March 2017 - July 2017
     url: https://novobi.com
-    description: Built automated system for deploying, testing and delivering package of health care application
+    description: I worked with Cloud Infrastructure team and built an automated system for deploying, testing and delivering packages of health care applications.
 
-  - organization: HO CHI MINH UNIVERSITY OF TECHNOLOGY
+  - organization: HIGH PERFORMANCE COMPUTING LAB - HCMUT VNU 
     location: Ho Chi Minh, Vietnam
     title: Research Assistant
     duration: July 2016 - July 2017
-    url: https://www.hcmut.edu.vn
-    description: Studied and developed abnormal behavior detection techniques for large-scale parallel applications in message-passing programming model
+    url: https://hpcc.vn
+    description: I worked under the supervision of Professor <a style="font-size:1.1rem;" href="http://www.cse.hcmut.edu.vn/~nam/">Nam Thoai</a> and developed techniques to detect abnormal behavior for large-scale parallel applications in message-passing programming model.
 
   - organization: DEK TECHNOLOGIES
     location: Ho Chi Minh, Vietnam
     title: Summer Intern
     duration: May 2016 - August 2018
     url: https://www.dektech.com.au
-    description: Built and automate deploy small high availability cluster
+    description: I completed a 3-month internship. The goal of this internship was to propose a high availability solution for computer clusters and automate the deployment in small-scale cluster.
