@@ -12,7 +12,7 @@ layout: compress
 <body>
     {% include nav.html %}
     <!-- Header -->
-    <!-- <header class="header" role="banner"> -->
+    <header class="header" role="banner">
         <div id="particles-js">
             <div class="wrapper animated fadeIn">
                 <div class="content">
@@ -24,13 +24,15 @@ layout: compress
                     </div>
                     {{ content }}
                 </div>
+                {% if page.next %}
+                <a class="down" href="{{ site.url }}/{{ page.next }}" data-scroll>
+                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                </a>  
+                {% endif %}
             </div>
-            {% if page.comments and site.disqus_shortname %}<section id="disqus_thread" class="animated fadeInUp"></section><!-- /#disqus_thread -->{% endif %}
-            <a class="down" href="{{ site.url }}/{{ page.next }}" data-scroll>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </a>  
+            {% if page.comments and site.disqus_shortname %}<section id="disqus_thread" class="animated fadeInUp"></section><!-- /#disqus_thread -->{% endif %} 
         </div>
-    <!-- </header> -->
+    </header>
     {% include scripts.html %}
     {% if site.mathjax == true %}
     <!-- MathJax -->

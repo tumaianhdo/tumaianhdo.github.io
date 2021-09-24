@@ -1,25 +1,19 @@
 #particles-js {
   background: $main;
+  // position: fixed;
+  // display: block;
   display: flex;
   vertical-align: bottom;
   width: 100%;
   min-height: 100vh;
+  // z-index: -10;
   background-repeat: no-repeat;
   // background-repeat: repeat-x;
   background-size: cover;
   background-attachment: fixed;
-  // animation: slide 60s linear infinite;
   .particles-js-canvas-el {
     width:100% !important;
     height:100vh !important;
-  }
-}
-@keyframes slide{
-  0% {
-    transform: translate3d(0, 0, 0);
-  }
-  100% {
-    transform: translate3d(-1692px, 0, 0);
   }
 }
 
@@ -101,10 +95,10 @@
 
 .down {
   color: #FFF;
-  position: absolute;
+  // position: absolute;
   bottom: 25px;
   width: 100%;
-  margin: 0 auto;
+  margin: 50px auto;
   display: block;
   text-align: center;
   font-size: 30px;
