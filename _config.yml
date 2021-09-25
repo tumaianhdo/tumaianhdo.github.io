@@ -12,7 +12,7 @@ tiled_bg:           false   # Set this true if you want to tile your background 
 locale:             en_US
 url:                https://tumaianhdo.github.io
 # url:                
-resume:             https://github.com/tumaianhdo/tumaianhdo.github.io/raw/master/resume/resume.pdf
+resume:             https://github.com/tumaianhdo/tumaianhdo.github.io/raw/master/uploads/resume.pdf
 google.verify:      JLYK94aqqr92rnl1VPg9ilzzRtOTs5nwBVqyIlcwbtA
 
 # Jekyll
