@@ -92,6 +92,9 @@ body {
 	@media #{$medium} {
 		width: 80%;
 	}
+	@media screen and (max-height: 45rem) {
+		top: 500px;
+	}
 }
 .row {
 	margin-top: 15px;
