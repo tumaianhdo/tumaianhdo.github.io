@@ -10,10 +10,12 @@ layout: compress
     {% include head.html %}
 </head>
 <body>
+    <div id="particles-js"></div>
+    <div class="temp">
     {% include nav.html %}
     <!-- Header -->
     <!-- <header class="header" role="banner"> -->
-        <div id="particles-js">
+        
             <div class="wrapper animated fadeIn">
                 <div class="content">
                     <div class="post-title">
@@ -41,7 +43,7 @@ layout: compress
                     </div>
                 </div>
             </div>
-        </div>
+    </div>
     <!-- </header> -->
     {% include scripts.html %}
     <script src="{{ site.url }}/assets/js/wow.min.js"></script>
