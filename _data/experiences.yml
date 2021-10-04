@@ -1,13 +1,20 @@
 experience_history:
   - organization: INFORMATION SCIENCES INSTITUTE
-    location: Marina Del Rey, CA
+    location: Marina Del Rey, CA, USA
     title: Graduate Research Assistant
     duration: August 2017 - Present
     url: https://www.isi.edu
     description: I am part of the <a style="font-size:1.1rem;" href="https://scitech.group">Science Automation Technologies</a> group and mainly working in the project <a style="font-size:1.1rem;" href="https://analytics4md.org">Analytics4MD</a>. My research topic is more concerned about how to enable efficient executions of in situ analyses that co-locates with large-scale simulations using in-memory staging in leadership-class computing platforms.
 
+  - organization: UNIVERSITY OF SOUTHERN CALIFORNIA
+    location: Los Angeles, CA, USA
+    title: Teaching Assistant
+    duration: August 2020 - Spring 2021
+    url: https://www.usc.edu
+    description: During my PhD, I served as a teaching assistant of the Master-level DATABASE SYSTEMS (CSCI-585) course taught by <a style="font-size:1.1rem;" href="https://viterbi.usc.edu/directory/faculty/Raghavachary/Saty">Dr. Saty Raghavachary</a> in <a style="font-size:1.1rem;" href="https://bytes.usc.edu/cs585/f20_db0DS/home/index.html">Fall 2020</a> and <a style="font-size:1.1rem;" href="https://bytes.usc.edu/cs585/s21_DBDS012/home/index.html">Spring 2021</a>.
+
   - organization: LAWRENCE LIVERMORE NATIONAL LABORATORY
-    location: Livermore, CA
+    location: Livermore, CA, USA
     title: Research Intern 
     duration: May 2018 - August 2018
     url: https://www.llnl.gov
@@ -26,6 +33,13 @@ experience_history:
     duration: July 2016 - July 2017
     url: https://hpcc.vn
     description: I worked under the supervision of Professor <a style="font-size:1.1rem;" href="http://www.cse.hcmut.edu.vn/~nam/">Nam Thoai</a> and developed techniques to detect abnormal behavior for large-scale parallel applications in message-passing programming model.
+
+  - organization: HO CHI MINH CITY UNIVERSITY OF TECHNOLOGY
+    location: Ho Chi Minh, Vietnam
+    title: Teaching Assistant
+    duration: September 2016 - May 2017
+    url: https://www.hcmut.edu.vn
+    description: After completing my bachelor degree, I served as a teaching assistant for the following undergrad classes&#58; PARALLEL PROGRAMMING AND DISTRIBUTED SYSTEM taught by <a style="font-size:1.1rem;" href="http://www.cse.hcmut.edu.vn/~nam/">Dr. Nam Thoai</a> and FUNDAMENTALS OF PROGRAMMING taught by Dr. Sach Le.
 
   - organization: DEK TECHNOLOGIES
     location: Ho Chi Minh, Vietnam
