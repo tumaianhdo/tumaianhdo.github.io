@@ -11,40 +11,39 @@ layout: compress
 </head>
 <body>
     <div id="particles-js"></div>
-    <div class="temp">
-    {% include nav.html %}
-    <!-- Header -->
-    <!-- <header class="header" role="banner"> -->
-        
-            <div class="wrapper animated fadeIn">
-                <div class="content">
-                    <div class="post-title">
-                        <h1>{{ page.title }}</h1>
-                        <a class="btn zoombtn" href="{{site.url}}">
-                            <i class="fa fa-home"></i>
-                        </a>
-                    </div>
-                    <div class="post-list">
-                        {% for item in site.data[page.yml][page.field] %}
-                        <ul>
-                            <li class="wow fadeInLeft" data-wow-duration="1.5s">
-                                <div class="resume-content">
-                                    <h2 style="margin: 2px auto">{{ item.title }}</h2>
-                                    <a class="zoombtn" href="{{ item.url }}">{{ item.organization }}, {{ item.location}} </a>
-                                    <p>{{ item.description }}</p>
-                                </div>
-                                <div class="resume-date">
-                                    <span style="font-size:1.15rem;color:#d20b00;">{{ item.duration }}</span>
-                                </div>
-                                <!-- <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a> -->
-                            </li>
-                        </ul>
-                        {% endfor %}
-                    </div>
+    <div class="layers">
+        {% include nav.html %}
+        <!-- Header -->
+        <!-- <header class="header" role="banner"> -->
+        <div class="wrapper animated fadeIn">
+            <div class="content">
+                <div class="post-title">
+                    <h1>{{ page.title }}</h1>
+                    <a class="btn zoombtn" href="{{site.url}}">
+                        <i class="fa fa-home"></i>
+                    </a>
+                </div>
+                <div class="post-list">
+                    {% for item in site.data[page.yml][page.field] %}
+                    <ul>
+                        <li class="wow fadeInLeft" data-wow-duration="1.5s">
+                            <div class="resume-content">
+                                <h2 style="margin: 2px auto">{{ item.title }}</h2>
+                                <a class="zoombtn" href="{{ item.url }}">{{ item.organization }}, {{ item.location}} </a>
+                                <p>{{ item.description }}</p>
+                            </div>
+                            <div class="resume-date">
+                                <span style="font-size:1.15rem;color:#d20b00;">{{ item.duration }}</span>
+                            </div>
+                            <!-- <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a> -->
+                        </li>
+                    </ul>
+                    {% endfor %}
                 </div>
             </div>
+        </div>
+        <!-- </header> -->
     </div>
-    <!-- </header> -->
     {% include scripts.html %}
     <script src="{{ site.url }}/assets/js/wow.min.js"></script>
     <script type="text/javascript">(new WOW).init();</script>

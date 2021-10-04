@@ -10,11 +10,12 @@ layout: compress
     {% include head.html %}
 </head>
 <body> 
-    {% include nav.html %}
-    <!-- Header -->
-    <!-- <header class="header flex" role="banner"> -->
-    <header class="header flex" role="banner"> 
-        <div id="particles-js">
+    <div id="particles-js"></div>
+    <div class="layers">
+        {% include nav.html %}
+        <!-- Header -->
+        <!-- <header class="header flex" role="banner"> -->
+        <!-- <header class="header flex" role="banner">  -->
             <div class="container animated fadeIn">
                 <div class="row">
                         <a href="{{ site.url }}">
@@ -50,9 +51,9 @@ layout: compress
                 <a class="down" href="{{ site.url }}/about" data-scroll>
                     <i class="fa fa-chevron-down" aria-hidden="true"></i>
                 </a>    
-            </div>   
-        </div>
-    </header>
+            </div>  
+        <!-- </header>  -->
+    </div>
     {% include scripts.html %}
 </body>
 </html>
