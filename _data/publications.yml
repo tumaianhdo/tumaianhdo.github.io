@@ -1,0 +1,56 @@
+publication_history:
+  - title: Assessing Resource Provisioning and Allocation of Ensembles of In Situ Workflows
+    revenue: International Workshop on Parallel Programming Models and Systems Software for High-End Computing (P2S2), 2021
+    funding: NSF 1741040, NSF 1741057, DOE DE-SC0012636
+    authors: T. M. A. Do, L. Pottier, R. Ferreira da Silva, S. Caíno-Lores, M. Taufer, and E. Deelman
+    doi: 10.1145/3458744.3474051
+    type: Workshop
+
+  - title: A Lightweight Method for Evaluating In Situ Workflow Efficiency
+    revenue: Journal of Computational Science, 48, 101259, 2020
+    funding: NSF 1741040, DOE DE-SC0012636
+    authors: T. M. A. Do, L. Pottier, S. Caíno-Lores, R. Ferreira da Silva, M. A. Cuendet, H. Weinstein, T. Estrada, M. Taufer, and E. Deelman
+    doi: 10.1016/j.jocs.2020.101259
+    type: Journal
+  
+  - title: A Novel Metric to Evaluate In Situ Workflows
+    revenue: International Conference on Computational Science (ICCS), 2020
+    funding: NSF 1741040
+    authors: T. M. A. Do, L. Pottier, S. Thomas, R. Ferreira da Silva, M. A. Cuendet, H. Weinstein, T. Estrada, M. Taufer, and E. Deelman
+    doi: 10.1007/978-3-030-50371-0_40
+    type: Conference
+
+  - title: Characterization of In Situ and In Transit Analytics of Molecular Dynamics Simulations for Next-generation Supercomputers
+    revenue: 15th eScience Conference, 2019
+    funding: NSF 1741040
+    authors: S. Thomas, M. Wyatt, T. M. A. Do, L. Pottier, R. Ferreira da Silva, H. Weinstein, M. A. Cuendet, T. Estrada, E. Deelman, and M. Taufer
+    doi: 10.1109/eScience.2019.00027
+    type: Conference
+
+  - title: Measuring the Impact of Burst Buffers on Data-Intensive Scientific Workflows
+    revenue: Future Generation Computer Systems, vol. 101, p. 208–220, 2019
+    funding: DOE DE-SC0012636, NSF 1664162, NSF 1741040
+    authors: R. Ferreira da Silva, S. Callaghan, T. M. A. Do, G. Papadimitriou, and E. Deelman
+    doi: 10.1016/j.future.2019.06.016
+    type: Journal
+
+  - title: Enabling Data Analytics Workflows using Node-Local Storage
+    revenue: The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC18), 2018
+    funding: LDRD 16-ERD-03, NSF 1741040
+    authors: T. M. A. Do, M. Jiang, B. Gallagher, A. Chu, C. Harrison, K. Vahi, and E. Deelman
+    doi: 
+    type: Poster
+
+  - title: Race Condition and Deadlock Detection for Large-Scale Applications
+    revenue: 15th International Symposium on Parallel and Distributed Computing (ISPDC), 2016
+    funding: 
+    authors: T. M. A. Do, D. Diep, and N. Thoai
+    doi: 10.1109/ISPDC.2016.53
+    type: Conference
+
+  - title: Message Leak Detection in Debugging Large-Scale Parallel Applications
+    revenue: International Conference on Advanced Computing and Applications (ACOMP), 2015
+    funding: 
+    authors: T. M. A. Do, D. Diep, and N. Thoai
+    doi: 10.1109/ACOMP.2015.17
+    type: Conference

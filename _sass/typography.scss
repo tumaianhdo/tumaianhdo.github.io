@@ -51,7 +51,7 @@ h3.title a {
 		text-decoration: none;
 		background: $white;
 		color: $color_shark;
-		display: flex;
+		// display: flex;
 		a {
 			@include font-rem(18);
 			text-decoration: none;
@@ -65,7 +65,25 @@ h3.title a {
 		p {
 			font-weight: lighter;
 			@include font-rem(14);
+			display: inline;
 		}
+	}
+	.btn {
+        @include font-rem(14);
+		padding: 5px 10px;
+		border-color: inherit;
+    }
+	.label {
+		padding: 1px 5px;
+		@include font-rem(15);
+		margin: 4px auto;
+		display: inline-block;
+		// border: 1px solid;
+		// border-color: rgba($color_mercury,0.5) rgba($color_bon_jour,0.5) $color_mischka;
+		border-radius: 5px;
+		text-decoration: none;
+		background: #1a916f;
+		color: $white;
 	}
 }
 

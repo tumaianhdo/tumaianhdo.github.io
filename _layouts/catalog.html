@@ -10,10 +10,13 @@ layout: compress
     {% include head.html %}
 </head>
 <body>
-    {% include nav.html %}
-    <!-- Header -->
-    <!-- <header class="header" role="banner"> -->
-        <div id="particles-js">
+    <div id="particles-js">
+    </div>
+    <div class="layers">
+        {% include nav.html %}
+        <!-- Header -->
+        <!-- <header class="header" role="banner"> -->
+        
             <div class="wrapper animated fadeIn">
                 <div class="content">
                     <div class="post-title">
@@ -23,23 +26,24 @@ layout: compress
                         </a>
                     </div>
                     <div class="post-list">
-                        {% for post in site.posts %} 
-                            {% if post.project == null %}
+                        {% for item in site.data[page.yml][page.field] %}
                         <ul>
                             <li class="wow fadeInLeft" data-wow-duration="1.5s">
                                 <!-- <div class="resume-content"> -->
-                                    <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-                                    <p>{{ post.excerpt }}</p>
+                                    <span class="label">{{ item.type }}</span>
+                                    <p>{{ item.authors }}. {{ item.title }}. In: {{ item.revenue }}. Funding Acknowledgments: {{ item.funding }}</p>
                                 <!-- </div> -->
-                                <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a>
+                                <div class="buttons">
+                                    <a href="https://doi.org/{{ item.doi }}" class="btn zoombtn">DOI</a>
+                                </div>
                             </li>
+                            
                         </ul>
-                            {% endif %}
                         {% endfor %}
                     </div>
                 </div>
             </div>
-        </div>
+    </div>
     <!-- </header> -->
     {% include scripts.html %}
     <script src="{{ site.url }}/assets/js/wow.min.js"></script>

@@ -76,8 +76,35 @@
     @include font-rem(16);
     font-weight:300;
 }
-.post-list {
-    .btn {
+.list {
+  text-align: left;
+	ul {
+		list-style: none;
+		padding-left: 0;
+	}
+	li {
+		padding: 10px 18px;
+		margin: 0 10px;
+		text-decoration: none;
+		background: $white;
+		color: $color_shark;
+		display: flex;
+		a {
+			@include font-rem(18);
+			text-decoration: none;
+			// color: $color_shark;
+			color: #3242d1;
+			font-weight: bolder;
+            &:hover {
+                color: $red;
+            }
+		}
+		p {
+			font-weight: lighter;
+			@include font-rem(14);
+		}
+	}
+	.btn {
         @include font-rem(14);
     }
 }
