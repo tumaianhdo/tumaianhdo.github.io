@@ -31,10 +31,15 @@ layout: compress
                             <li class="wow fadeInLeft" data-wow-duration="1.5s">
                                 <!-- <div class="resume-content"> -->
                                     <span class="label">{{ item.type }}</span>
-                                    <p>{{ item.authors }}. {{ item.title }}. In: {{ item.revenue }}. Funding Acknowledgments: {{ item.funding }}</p>
+                                    <p>{{ item.authors }}. {{ item.title }}. In: {{ item.revenue }}.{% if item.funding %} Funding Acknowledgments: {{ item.funding }}.{% endif %}</p>
                                 <!-- </div> -->
                                 <div class="buttons">
-                                    <a href="https://doi.org/{{ item.doi }}" class="btn zoombtn">DOI</a>
+                                    {% if item.doi %}
+                                        <a href="https://doi.org/{{ item.doi }}" class="btn zoombtn">DOI</a>
+                                    {% endif %}
+                                    {% if item.poster %}
+                                        <a href="{{ item.poster }}" class="btn zoombtn">Poster</a>
+                                    {% endif %}
                                 </div>
                             </li>
                             

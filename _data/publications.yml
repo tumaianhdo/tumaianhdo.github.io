@@ -38,19 +38,17 @@ publication_history:
     revenue: The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC18), 2018
     funding: LDRD 16-ERD-03, NSF 1741040
     authors: T. M. A. Do, M. Jiang, B. Gallagher, A. Chu, C. Harrison, K. Vahi, and E. Deelman
-    doi: 
+    poster: https://sc18.supercomputing.org/proceedings/tech_poster/tech_poster_pages/post167.html
     type: Poster
 
   - title: Race Condition and Deadlock Detection for Large-Scale Applications
     revenue: 15th International Symposium on Parallel and Distributed Computing (ISPDC), 2016
-    funding: 
     authors: T. M. A. Do, D. Diep, and N. Thoai
     doi: 10.1109/ISPDC.2016.53
     type: Conference
 
   - title: Message Leak Detection in Debugging Large-Scale Parallel Applications
     revenue: International Conference on Advanced Computing and Applications (ACOMP), 2015
-    funding: 
     authors: T. M. A. Do, D. Diep, and N. Thoai
     doi: 10.1109/ACOMP.2015.17
     type: Conference
