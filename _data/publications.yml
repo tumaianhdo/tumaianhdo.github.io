@@ -1,4 +1,11 @@
 publication_history:
+  - title: Performance Characterization of Scientific Machine Learning Workflows
+    revenue: IEEE/ACM Workflows in Support of Large-Scale Science (WORKS), 2021
+    funding: DOE DE-SC0012636, NSF 1664162
+    authors: P. Krawczuk, G. Papadimitriou, R. Tanaka, T. M. A Do, S. Subramany, S. Nagarkar, A. Jain, K. Lam, A. Mandal, L. Pottier, and E. Deelman
+    doi: 
+    type: Workshop
+
   - title: Assessing Resource Provisioning and Allocation of Ensembles of In Situ Workflows
     revenue: International Workshop on Parallel Programming Models and Systems Software for High-End Computing (P2S2), 2021
     funding: NSF 1741040, NSF 1741057, DOE DE-SC0012636
