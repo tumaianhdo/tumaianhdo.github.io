@@ -37,10 +37,11 @@ layout: compress
                                     {% if item.doi %}
                                         <a href="https://doi.org/{{ item.doi }}" class="btn zoombtn">DOI</a>
                                     {% else %}
-                                        <a class="btn">To appear</a>
-                                    {% endif %}
-                                    {% if item.poster %}
-                                        <a href="{{ item.poster }}" class="btn zoombtn">Poster</a>
+                                        {% if item.poster %}
+                                            <a href="{{ item.poster }}" class="btn zoombtn">Poster</a>
+                                        {% else %}
+                                           <a class="btn">To appear</a>
+                                        {% endif %}
                                     {% endif %}
                                 </div>
                             </li>
