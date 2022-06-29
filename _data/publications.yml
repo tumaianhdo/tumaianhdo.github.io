@@ -1,9 +1,23 @@
 publication_history:
+  - title: Performance assessment of ensembles of in situ workflows under resource constraints
+    revenue: Concurrency and Computation Practice and Experience (CCPE), 2022
+    funding: NSF 1741040, NSF 1741057, NSF 1841758, DE-AC02-05CH11231, DE-AC05-00OR22725, DE-SC0012636
+    authors: T. M. A. Do, L. Pottier, R. Ferreira da Silva, S. Caíno-Lores, M. Taufer, and E. Deelman
+    doi: 10.1002/cpe.7111
+    type: Journal
+
+  - title: Accelerating Scientific Workflows on HPC Platforms with In Situ Processing
+    revenue: IEEE/ACM 22nd International Symposium on Cluster, Cloud and Internet Computing (CCGrid), 2022
+    funding: NSF 1664162, DOE DE-AC02-06CH11357, DE-AC02-05CH11231, DE-SC0012636 and DE-SC0022328
+    authors: T. M. A. Do, L. Pottier, O. Yildiz, K. Vahi, P. Krawczuk, T. Peterka, and E. Deelman
+    doi: 
+    type: Conference
+    
   - title: Performance Characterization of Scientific Machine Learning Workflows
     revenue: IEEE/ACM Workflows in Support of Large-Scale Science (WORKS), 2021
     funding: DOE DE-SC0012636, NSF 1664162
     authors: P. Krawczuk, G. Papadimitriou, R. Tanaka, T. M. A Do, S. Subramany, S. Nagarkar, A. Jain, K. Lam, A. Mandal, L. Pottier, and E. Deelman
-    doi: 
+    doi: 10.1109/WORKS54523.2021.00013
     type: Workshop
 
   - title: Assessing Resource Provisioning and Allocation of Ensembles of In Situ Workflows
