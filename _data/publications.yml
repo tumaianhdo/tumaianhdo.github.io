@@ -10,7 +10,7 @@ publication_history:
     revenue: IEEE/ACM 22nd International Symposium on Cluster, Cloud and Internet Computing (CCGrid), 2022
     funding: NSF 1664162, DOE DE-AC02-06CH11357, DE-AC02-05CH11231, DE-SC0012636 and DE-SC0022328
     authors: T. M. A. Do, L. Pottier, O. Yildiz, K. Vahi, P. Krawczuk, T. Peterka, and E. Deelman
-    doi: 
+    doi: 10.1109/CCGrid54584.2022.00009
     type: Conference
     
   - title: Performance Characterization of Scientific Machine Learning Workflows
